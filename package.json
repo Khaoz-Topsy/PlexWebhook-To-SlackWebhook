@@ -1,0 +1,24 @@
+{
+  "name": "plex-notifications",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node --harmony-async-await index.js"
+  },
+  "engines": {
+    "node": "7.x"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "ioredis": "^2.5.0",
+    "morgan": "^1.8.1",
+    "multer": "^1.2.1",
+    "node-freegeoip": "0.0.1",
+    "sha1": "^1.1.1",
+    "sharp": "^0.17.3",
+    "slack-node": "^0.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
